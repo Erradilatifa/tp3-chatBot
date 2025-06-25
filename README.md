@@ -1,16 +1,61 @@
 # chatbot_gpt
 
-A new Flutter project.
+Cette application Flutter propose une interface conversationnelle moderne et intuitive, intégrant l’API GPT-4o d’OpenAI. Elle permet aux utilisateurs d’interagir en temps réel avec un assistant virtuel, grâce à un design élégant basé sur le glassmorphism et une architecture réactive avec Flutter Bloc.
 
-## Getting Started
+## ✨ Fonctionnalités :
+Interface utilisateur simple et réactive
 
-This project is a starting point for a Flutter application.
+Envoi et affichage des messages utilisateur/assistant
 
-A few resources to get you started if this is your first Flutter project:
+Requêtes HTTP vers l’API OpenAI pour générer les réponses
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Technologies utilisées
+Flutter : Kit de développement UI pour créer des applications mobiles, web et desktop natives.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dart : Langage de programmation utilisé pour développer l'application Flutter.
+
+Bloc (flutter_bloc) : Bibliothèque de gestion d’état permettant une architecture claire et réactive.
+
+API OpenAI GPT-4o : Utilisée pour générer des réponses en langage naturel du chatbot.
+
+HTTP (package http) : Utilisé pour effectuer les appels API vers les serveurs d’OpenAI.
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Erradilatifa/Chatbot-app.git
+   cd chatbot
+   
+2. **Install dependencies**
+    ```bash
+    flutter pub add flutter_bloc
+
+
+3. **Add your OpenAI API key**
+    ```bash
+    OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+    
+4. **Run the app**
+    ```bash
+    Run the app
+
+
+    ## Screenshots
+
+### ✅ Login Page
+
+![hpmmmmme](https://github.com/user-attachments/assets/d8ba5970-a8bb-42b8-bdbf-c16e4d3f82b7)
+
+
+### 🤖 ChatBot
+
+![chartttttt](https://github.com/user-attachments/assets/789f724c-ecb0-4083-812b-3a30271becc7)
+
+##  🔄 Erreur 401
+
+![401](https://github.com/user-attachments/assets/b879c812-775b-46cb-8725-1dc8a6cffacf)
+
+
+
+
+
