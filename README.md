@@ -2,7 +2,9 @@
 
 Cette application Flutter propose une interface conversationnelle moderne et intuitive, intégrant l’API GPT-4o d’OpenAI. Elle permet aux utilisateurs d’interagir en temps réel avec un assistant virtuel, grâce à un design élégant basé sur le glassmorphism et une architecture réactive avec Flutter Bloc.
 
+
 ## ✨ Fonctionnalités :
+
 Interface utilisateur simple et réactive
 
 Envoi et affichage des messages utilisateur/assistant
@@ -19,6 +21,8 @@ Bloc (flutter_bloc) : Bibliothèque de gestion d’état permettant une architec
 API OpenAI GPT-4o : Utilisée pour générer des réponses en langage naturel du chatbot.
 
 HTTP (package http) : Utilisé pour effectuer les appels API vers les serveurs d’OpenAI.
+
+
 
 1. **Clone the repository**
    ```bash
@@ -38,6 +42,9 @@ HTTP (package http) : Utilisé pour effectuer les appels API vers les serveurs d
 4. **Run the app**
     ```bash
     Run the app
+     ```
+    
+
 
 
     ## Screenshots
@@ -54,6 +61,18 @@ HTTP (package http) : Utilisé pour effectuer les appels API vers les serveurs d
 ##  🔄 Erreur 401
 
 ![401](https://github.com/user-attachments/assets/b879c812-775b-46cb-8725-1dc8a6cffacf)
+
+##  🤖 Projet ChatBot GPT : Architecture et Composants
+
+![code](https://github.com/user-attachments/assets/23ea5794-027e-4046-a535-167f8b394ae7)
+
+
+##  Bloc Principal du ChatBot : Requêtes GPT et Gestion d'Erreurs
+
+
+ ![cooooooooode6](https://github.com/user-attachments/assets/665c924d-986a-41f9-a9d8-62d1466c64c0)
+
+
 
 
 
