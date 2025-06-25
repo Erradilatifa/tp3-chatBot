@@ -67,7 +67,7 @@ HTTP (package http) : Utilisé pour effectuer les appels API vers les serveurs d
 ![code](https://github.com/user-attachments/assets/23ea5794-027e-4046-a535-167f8b394ae7)
 
 
-##  Bloc Principal du ChatBot : Requêtes GPT et Gestion d'Erreurs
+## ⚡  Bloc Principal du ChatBot : Requêtes GPT et Gestion d'Erreurs
 
 
  ![cooooooooode6](https://github.com/user-attachments/assets/665c924d-986a-41f9-a9d8-62d1466c64c0)
