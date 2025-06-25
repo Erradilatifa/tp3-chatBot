@@ -1,18 +1,11 @@
-
 import 'package:chatbot_gpt/bloc/chat.bot.bolc..dart';
 import 'package:chatbot_gpt/chat.bot.page.dart';
+import 'package:chatbot_gpt/home.page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:flutter/material.dart';
 
-
-import 'home.page.dart';
-
-
-Future<void> main() async {
-  await dotenv.load(fileName: ".env");
-  runApp(MyApp());
+void main() {
+  runApp(MyApp()); // Suppression du chargement de .env
 }
 
 class MyApp extends StatelessWidget {
@@ -21,13 +14,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
-        providers:[
-          BlocProvider(create:(context)=>ChatBotBloc())
-        ],
-        child:RootView(),
+      providers: [
+        BlocProvider(create: (context) => ChatBotBloc())
+      ],
+      child: const RootView(),
     );
   }
 }
+
 class RootView extends StatelessWidget {
   const RootView({super.key});
 
@@ -38,11 +32,11 @@ class RootView extends StatelessWidget {
         primaryColor: Colors.teal,
         indicatorColor: Colors.white,
       ),
+      debugShowCheckedModeBanner: false,
       routes: {
-        "/chat": (context) => ChatBotPage(),
+        "/chat": (context) =>  ChatBotPage(),
       },
-      home:HomePage(),
+      home: HomePage(),
     );
   }
 }
-
